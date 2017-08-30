@@ -11,26 +11,26 @@
 }
 
 .button.button-default {
-    background-color: #a2a2a2;
-    color: #444;
+    background-color: $s_default;
+    color: $dark;
 }
 
 .button.button-primary {
-    background-color:#0053ff;
-    color: whitesmoke;
+    background-color: $s_primary;
+    color: $white;
 }
 
 .button.button-danger {
-    background-color: #f83d3d;
-    color: whitesmoke;
+    background-color: $s_danger;
+    color: $white;
 }
 
 .button.button-warning {
-    background-color:#f8f83a;
-    color: #444;
+    background-color: $s_warning;
+    color: $dark;
 }
 
 .button.button-success {
-    background-color:#42f842;
-    color: #444;
+    background-color:$s_success;
+    color: $dark;
 }

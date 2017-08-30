@@ -1,7 +1,12 @@
+@import 'fonts';
+@import 'colors';
+@import 'columns';
+@import 'boxes';
+@import 'buttons';
 
 body {
-    font-family: 'Lora', serif;
-    background-color: whitesmoke;
+    font-family: $lora;
+    background-color: $white;
 }
 
 /*
@@ -34,7 +39,7 @@ h4 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cabin', sans-serif;
+    font-family: $cabin;
 }
 
 /*
@@ -97,7 +102,7 @@ footer {
     background-color: darkred;
     width: 100%;
     color: white;
-    font-family: 'Cabin', sans-serif;
+    font-family: $cabin;
     padding: 12px;
     float: left;
 }
