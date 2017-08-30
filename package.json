@@ -14,7 +14,13 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
   },
+  "scripts": {
+    "build": "gulp sass"
+  },
   "repository": "https://github.com/JuanjoSalvador/cakecss.git",
   "author": "Juanjo Salvador <juanjosalvador@netc.eu>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prismjs": "^1.6.0"
+  }
 }
