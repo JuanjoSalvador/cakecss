@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Lora', serif;
+    background-color: whitesmoke;
+}
+
+/*
+ * PARRAGRAPHS
+ */
+
+ p {
+    font-size: 13pt;    
+ }
+
+/*
+ * HEADERS
+ */
+
+h1 {
+    color: darkred;
+    font-size: 10em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin', sans-serif;
+}
+
+/*
+ * CLASSES
+ */ 
+
+.center {
+    text-align: center;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*  LINKS */
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px rgb(0, 0, 0) dotted;
+}
+
+a:hover {
+    color: navy;
+}
+
+pre {
+    background-color: rgb(15, 14, 14);
+    position: relative;
+    margin-bottom: 15px;
+}
+
+code {
+    color: white;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-full {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    bottom: 0;
+    height: 5em;
+    background-color: darkred;
+    width: 100%;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding: 12px;
+    float: left;
+}

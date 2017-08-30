@@ -1,0 +1,24 @@
+.box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.box.box-default {
+    background-color: $default;
+}
+
+.box-primary {
+    background-color: $primary;
+}
+
+.box-danger {
+    background-color: $danger;
+}
+
+.box-warning {
+    background-color: $warning;
+}
+
+.box-success {
+    background-color: $success;
+}
