@@ -1,11 +1,20 @@
 {
   "name": "cake-css",
   "description": "Minimalistic and responsive tiny CSS library",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "keywords": [
+    "css",
+    "css library",
+    "minimalistic",
+    "responsive"
+  ],
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
-  }
+  },
+  "repository": "https://github.com/JuanjoSalvador/cakecss.git",
+  "author": "Juanjo Salvador <juanjosalvador@netc.eu>",
+  "license": "MIT"
 }
