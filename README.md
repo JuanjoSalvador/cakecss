@@ -1,6 +1,10 @@
 # Cake CSS
 
-## Minimalistic and responsive tiny CSS library
+Minimalistic and responsive tiny CSS library.
+
+Cake CSS provides you the minimum set of things you will need to start your development: a grid system, responsive layout, customizable boxes, buttons and headers, and a set of fonts. Do you need more? Cake CSS is fully hackable. Just change whatever you need or add your custom CSS!
+
+When I say Cake CSS is a tiny library, it means it only has 2KB! Minified version, I mean.
 
 ### Usage
 
@@ -33,9 +37,9 @@ You will need the following tools:
 
 2. Modify or extend whatever you need.
 
-3. Run Gulp task
+3. Build it.
 
-    $ gulp sass
+    $ npm run build
 
 
 
