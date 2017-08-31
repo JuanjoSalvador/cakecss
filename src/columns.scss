@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+// Rows
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+// Cols
+
 .col-1 {
     width: 8.33%;
 }
@@ -48,4 +63,16 @@
 
 .col-12 {
     width: 100%;
+}
+
+// Containers
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-full {
+    width: 100%;
+    margin: 0 auto;
 }

@@ -1,8 +1,10 @@
 @import 'fonts';
 @import 'colors';
+@import 'headers';
 @import 'columns';
 @import 'boxes';
 @import 'buttons';
+@import 'links';
 
 body {
     font-family: $lora;
@@ -14,33 +16,9 @@ body {
  */
 
  p {
-    font-size: 13pt;    
+    font-size: 13pt;
+    text-align: justify;
  }
-
-/*
- * HEADERS
- */
-
-h1 {
-    color: darkred;
-    font-size: 10em;
-}
-
-h2 {
-    font-size: 3em;
-}
-
-h3 {
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 1.5em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: $cabin;
-}
 
 /*
  * CLASSES
@@ -48,39 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .center {
     text-align: center;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/*  LINKS */
-
-a {
-    text-decoration: none;
-    color: black;
-    border-bottom: 3px rgb(0, 0, 0) dotted;
-}
-
-a:hover {
-    color: navy;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.container-full {
-    width: 100%;
-    margin: 0 auto;
 }
 
 footer {
