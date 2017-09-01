@@ -41,5 +41,11 @@ You will need the following tools:
 
     $ npm run cook
 
+### Acknowledgements
 
+Cake CSS is srrongly influenced by:
 
+* [Twitter Bootstrap](http://getboostrap.com)
+* [Min CSS](http://mincss.com)
+
+Also this is possible thanks to  [Coolors.co](https://coolors.co/) and their palette generator.
