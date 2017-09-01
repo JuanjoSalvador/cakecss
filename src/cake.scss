@@ -7,43 +7,15 @@
   * License: MIT
   */
 
-@import 'fonts';
+/* DO NOT REMOVE THIS. This is the base CSS, needed! */
+@import 'base';
+
+/* Cake CSS Modules. Remove whatever you don't need and rebuild */
+
 @import 'colors';
-@import 'headers';
-@import 'columns';
+@import 'grid';
 @import 'boxes';
 @import 'buttons';
-@import 'links';
-
-body {
-    font-family: $lora;
-    background-color: $white;
-}
-
-/*
- * PARRAGRAPHS
- */
-
- p {
-    font-size: 13pt;
-    text-align: justify;
- }
-
-/*
- * CLASSES
- */ 
-
-.center {
-    text-align: center;
-}
-
-footer {
-    bottom: 0;
-    height: 5em;
-    background-color: darkred;
-    width: 100%;
-    color: white;
-    font-family: $cabin;
-    padding: 12px;
-    float: left;
-}
+@import 'forms';
+@import 'tables';
+@import 'messages';

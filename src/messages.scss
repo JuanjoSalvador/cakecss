@@ -1,0 +1,38 @@
+.msg {
+    position: relative;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 0.7em;
+    padding-left: 1.5em;
+
+    .msg-header {
+        font-weight: bold;
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.3em;
+    }
+}
+
+.msg.msg-default {
+    border-left: 0.5em solid black;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.msg.msg-primary {
+    border-left: 0.5em solid rgba(91, 192, 235, 1);
+    background-color: rgba(91, 192, 235, 0.3);
+}
+
+.msg.msg-danger {
+    border-left: 0.5em solid rgb(195, 66, 63);
+    background-color: rgba(195, 66, 63, 0.3);
+}
+
+.msg.msg-warning {
+    border-left: 0.5em solid rgb(253, 231, 76);
+    background-color: rgba(253, 231, 76, 0.3)
+}
+
+.msg.msg-success {
+    border-left: 0.5em solid rgb(155, 197, 61);
+    background-color: rgba(155, 197, 61, 0.3);
+}

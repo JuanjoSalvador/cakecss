@@ -1,0 +1,90 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+$cabin: 'Cabin', sans-serif;
+$lora: 'Lora', serif;
+
+/* BASE COLORS */
+
+$white: #f5f5f5;
+$dark: #444;
+
+body {
+    font-family: $lora;
+    background-color: $white;
+}
+
+/*
+ * LINKS
+ */
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px rgb(0, 0, 0) dotted;
+}
+
+a:hover {
+    color: navy;
+}
+
+/*
+ * PARRAGRAPHS
+ */
+
+ p {
+    font-size: 13pt;
+    text-align: justify;
+ }
+
+/*
+ * CLASSES
+ */ 
+
+.center {
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    height: 5em;
+    background-color: darkred;
+    width: 100%;
+    color: white;
+    font-family: $cabin;
+    padding: 12px;
+    float: left;
+}
+
+/*
+ * HEADERS
+ */
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: $cabin;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.bighead {
+    h1 {
+        font-size: 8em;
+        color: darkred;
+    }
+}

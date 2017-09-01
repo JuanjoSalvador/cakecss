@@ -1,36 +1,33 @@
+/* Parent */
+
 .button {
     border: none;
+    border-radius: 0.3em;    
     font-weight: bold;
-    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
+    padding: 15px;
 }
 
-.button.button-default {
-    background-color: $s_default;
-    color: $dark;
-}
+/* Colors */
 
-.button.button-primary {
-    background-color: $s_primary;
-    color: $white;
-}
+.button.button-default { background-color: $default; color: $white; }
+.button.button-primary { background-color: $primary; color: $dark; }
+.button.button-danger  { background-color: $danger;  color: $white; }
+.button.button-warning { background-color: $warning; color: $dark;}
+.button.button-success { background-color: $success; color: $dark; }
 
-.button.button-danger {
-    background-color: $s_danger;
-    color: $white;
-}
+.button.button-default:hover { background-color: $h_default; color: $white; }
+.button.button-primary:hover { background-color: $h_primary; color: $dark; }
+.button.button-danger:hover  { background-color: $h_danger;  color: $white; }
+.button.button-warning:hover { background-color: $h_warning; color: $dark;}
+.button.button-success:hover { background-color: $h_success; color: $dark; }
 
-.button.button-warning {
-    background-color: $s_warning;
-    color: $dark;
-}
+/* Sizes */
 
-.button.button-success {
-    background-color:$s_success;
-    color: $dark;
-}
+.button.small { font-size: 12px; margin: 4px 2px; padding: 11px; }
+.button.large { font-size: 20px; margin: 4px 2px; padding: 19px; }

@@ -1,20 +1,15 @@
 /* ALPHA COLORS */
 
-$default: rgba(0, 0, 0, 0.20);
-$primary: rgba(0, 83, 255, 0.35);
-$danger:  rgba(255, 0, 0, 0.35);
-$warning: rgba(255, 255, 0, 0.35);
-$success: rgba(0, 255, 0, 0.35);
+$default: rgba(64, 78, 77, 0.5);
+$primary: rgba(91, 192, 235, 0.8);
+$danger:  rgba(195, 66, 63, 0.8);
+$warning: rgba(253, 231, 76, 0.8);
+$success: rgba(155, 197, 61, 0.8);
 
+/* HOVER COLORS */
 
-/* SOLID COLORS */
-
-$s_default: #a2a2a2;
-$s_primary: #0053ff;
-$s_danger:  #f83d3d;
-$s_warning: #f8f83a;
-$s_success: #42f842;
-
-
-$white: #f5f5f5;
-$dark: #444;
+$h_default: rgba(64, 78, 77, 1);
+$h_primary: rgba(91, 192, 235, 1);
+$h_danger:  rgba(195, 66, 63, 1);
+$h_warning: rgba(253, 231, 76, 1);
+$h_success: rgba(155, 197, 61, 1);

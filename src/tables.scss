@@ -1,0 +1,28 @@
+table {
+    position: relative;
+    width: 100%;
+
+    thead {
+        font-family: 'Cabin', sans-serif;
+
+        th {
+            text-align: left;
+            background-color: rgba(91, 192, 235, 0.8);
+            padding-left: 1em;
+        }
+    }
+
+    tbody tr {
+
+        td {
+            padding-top: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            padding-bottom: 0.25em;
+        }
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgba(64, 78, 77, 0.2);;
+     }
+}

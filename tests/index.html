@@ -21,33 +21,18 @@
 
 
         <div class="container">
-            
-
             <div class="row">
-                <h3>Grid system</h3>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-2 bordered">col-2</div>
-                <div class="col-2 bordered">col-2</div>
-                <div class="col-8 bordered">col-8</div>
-                <div class="col-3 bordered">col-3</div>
-                <div class="col-3 bordered">col-3</div>
-                <div class="col-3 bordered">col-3</div>
-                <div class="col-3 bordered">col-3</div>
-                <div class="col-4 bordered">col-4</div>
-                <div class="col-4 bordered">col-4</div>
-                <div class="col-4 bordered">col-4</div>
-                <div class="col-12 bordered">col-12</div>
+                <h3>Get Cake CSS!</h3>
+                <div class="col-12">
+                    <h4>Using Yarn</h4>
+                    <pre><code class="language-bash">$ yarn add cake-css</code></pre>
+                    <h4>Using NPM</h4>
+                    <pre><code class="language-bash">$ npm install cake-css</code></pre>
+                </div>
+                <p>And import the minified CSS into your site.</p>
+                <div class="col-12">
+                    <pre><code class="language-html">&lt;link rel="stylesheet" type="text/css" href="path/to/cake/cake.min.css"&gt;</code></pre>
+                </div>
             </div>
 
             <div class="row">
@@ -58,6 +43,67 @@
                 <h4>Header 4</h4>
                 <h5>Header 5</h5>
                 <h6>Header 6</h6>
+            </div>            
+
+            <div class="row">
+                <h3>Grid system</h3>
+                <div class="col-1 bordered">col-1</div>
+                <div class="col-11 bordered">col-11</div>
+                <div class="col-2 bordered">col-2</div>
+                <div class="col-10 bordered">col-10</div>
+                <div class="col-3 bordered">col-3</div>
+                <div class="col-9 bordered">col-9</div>
+                <div class="col-4 bordered">col-4</div>
+                <div class="col-8 bordered">col-8</div>
+                <div class="col-5 bordered">col-5</div>
+                <div class="col-7 bordered">col-7</div>
+                <div class="col-6 bordered">col-6</div>
+                <div class="col-6 bordered">col-6</div>
+                <div class="col-12 bordered">col-12</div>
+            </div>
+
+            <div class="row">
+                <h3>Forms</h3>
+                <form>
+                    <div class="col-1">
+                        <label class="form-input">
+                            Email
+                        </label>
+                    </div>
+                    <div class="col-3">
+                        <input type="text" />
+                        <button type="submit" class="button button-default small">Enviar</button>
+                    </div>
+                </form>                    
+            </div>
+
+            <div class="row">
+                <h3>Tables</h3>
+                <table class="table">
+                    <thead>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Juanjo Salvador</td>
+                            <td>31/08/2017</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Paco Martinez</td>
+                            <td>13/06/2013</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Álvaro Bueno</td>
+                            <td>05/02/2002</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="row">
@@ -140,33 +186,103 @@
 
             <div class="row">
                 <h3>Buttons</h3>
-                <div class="col-2">
-                    <button class="button button-default">Default</button>
+                <div class="row">
+                    <h4>Small buttons</h4>
+                    <div class="col-2">
+                        <button class="button button-default small">Default</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-primary small">Primary</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-danger small">Danger</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-warning small">Warning</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-success small">Success</button>
+                    </div>
                 </div>
-                <div class="col-2">
-                    <button class="button button-primary">Primary</button>
+                <div class="row">
+                    <h4>Normal buttons</h4>
+                    <div class="col-2">
+                        <button class="button button-default">Default</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-primary">Primary</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-danger">Danger</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-warning">Warning</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-success">Success</button>
+                    </div>
                 </div>
-                <div class="col-2">
-                    <button class="button button-danger">Danger</button>
-                </div>
-                <div class="col-2">
-                    <button class="button button-warning">Warning</button>
-                </div>
-                <div class="col-2">
-                    <button class="button button-success">Success</button>
+                <div class="row">
+                    <h4>Large buttons</h4>
+                    <div class="col-2">
+                        <button class="button button-default large">Default</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-primary large">Primary</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-danger large">Danger</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-warning large">Warning</button>
+                    </div>
+                    <div class="col-2">
+                        <button class="button button-success large">Success</button>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
-                <h3>Get Cake CSS!</h3>
-                <p>Install Cake CSS using Yarn or NPM</p>
+                <h3>Messages</h3>
                 <div class="col-12">
-                    <pre><code class="language-bash">$ yarn add cake-css
-$ npm install cake-css</code></pre>
+                    <div class="msg msg-default">
+                        <div class="msg-header">
+                            Title of the message!
+                        </div>
+                        <p>This is a testing message. Default color.
+                    </div>
                 </div>
-                <p>And import the minified CSS into your site.</p>
                 <div class="col-12">
-                    <pre><code class="language-html">&lt;link rel="stylesheet" type="text/css" href="path/to/cake/cake.min.css"&gt;</code></pre>
+                    <div class="msg msg-primary">
+                        <div class="msg-header">
+                            Title of the message!
+                        </div>
+                        <p>This is a testing message. Primary color.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="msg msg-danger">
+                        <div class="msg-header">
+                            Title of the message!
+                        </div>
+                        <p>This is a testing message. Danger color.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="msg msg-warning">
+                        <div class="msg-header">
+                            Title of the message!
+                        </div>
+                        <p>This is a testing message. Warning color.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="msg msg-success">
+                        <div class="msg-header">
+                            Title of the message!
+                        </div>
+                        <p>This is a testing message. Success color.
+                    </div>
                 </div>
             </div>
         </div>
