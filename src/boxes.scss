@@ -7,6 +7,11 @@
     background-color: $default;
 }
 
+.box.box-dark {
+    background-color: $darker;
+    color: $white;
+}
+
 .box-primary {
     background-color: $primary;
 }

@@ -1,0 +1,149 @@
+nav.navbar {
+    font-family: 'Cabin', sans-serif;
+
+    span.brand {
+        float: left;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        font-size: 2em;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+            float: left;
+
+            a {
+                display: block;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                border-bottom: none !important;
+            }
+        }
+    }
+}
+
+nav.navbar-default {
+    span.brand {
+        color: $darker;
+    }
+    ul {
+        background-color: $default;
+        
+        li {
+            a {
+                color: $darker;
+            }
+            
+            a:hover {
+                background-color: $h_default;
+                color: $darker !important;
+            }
+        }
+    }
+}
+
+nav.navbar-dark {
+    span.brand {
+        color: $white;
+    }
+    ul {
+        background-color: $h_dark;
+        
+        li {
+            a {
+                color: $white;
+            }
+            
+            a:hover {
+                background-color: $darker;
+                color: $white !important;
+            }
+        }
+    }
+}
+
+nav.navbar-primary {
+    span.brand {
+        color: $white;
+    }
+    ul {
+        background-color: $primary;
+        
+        li {
+            a {
+                color: $white;
+            }
+            
+            a:hover {
+                background-color: $h_primary;
+                color: $white !important;
+            }
+        }
+    }
+}
+
+nav.navbar-danger {
+    span.brand {
+        color: $white;
+    }
+    ul {
+        background-color: $danger;
+        
+        li {
+            a {
+                color: $white;
+            }
+            
+            a:hover {
+                background-color: $h_danger;
+                color: $white !important;
+            }
+        }
+    }
+}
+
+nav.navbar-warning {
+    span.brand {
+        color: $darker;
+    }
+    ul {
+        background-color: $warning;
+        
+        li {
+            a {
+                color: $darker;
+            }
+            
+            a:hover {
+                background-color: $h_warning;
+                color: $darker !important;
+            }
+        }
+    }
+}
+
+nav.navbar-success {
+    span.brand {
+        color: $white;
+    }
+    ul {
+        background-color: $success;
+        
+        li {
+            a {
+                color: $white;
+            }
+            
+            a:hover {
+                background-color: $h_success;
+                color: $white !important;
+            }
+        }
+    }
+}
