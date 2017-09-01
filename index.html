@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <head>    
     <style>
-        @import url("https://fonts.googleapis.com/css?family=Cabin");@import url("https://fonts.googleapis.com/css?family=Lora");body{font-family:"Lora", serif;background-color:#f5f5f5}a{text-decoration:none;color:black;border-bottom:3px black dotted}a:hover{color:navy}p{font-size:13pt;text-align:justify}.center{text-align:center}footer{bottom:0;height:5em;background-color:darkred;width:100%;color:white;font-family:"Cabin", sans-serif;padding:12px;float:left}h1,h2,h3,h4,h5,h6{font-family:"Cabin", sans-serif}h1{font-size:3em}h2{font-size:2.5em}h3{font-size:2em}h4{font-size:1.5em}.bighead h1{font-size:8em;color:darkred}*{box-sizing:border-box}[class*="col-"]{float:left;padding:15px}.row::after{content:"";clear:both;display:table}.col-1{width:8.33%}.col-2{width:16.66%}.col-3{width:25%}.col-4{width:33.33%}.col-5{width:41.66%}.col-6{width:50%}.col-7{width:58.33%}.col-8{width:66.66%}.col-9{width:75%}.col-10{width:83.33%}.col-11{width:91.66%}.col-12{width:100%}.container{width:80%;margin:0 auto}.container-full{width:100%;margin:0 auto}.box{position:relative;margin-bottom:15px}.box.box-default{background-color:rgba(64,78,77,0.5)}.box-primary{background-color:rgba(91,192,235,0.8)}.box-danger{background-color:rgba(195,66,63,0.8)}.box-warning{background-color:rgba(253,231,76,0.8)}.box-success{background-color:rgba(155,197,61,0.8)}.button{border:none;border-radius:0.3em;font-weight:bold;text-align:center;text-decoration:none;display:inline-block;cursor:pointer;font-size:16px;margin:4px 2px;padding:15px}.button.button-default{background-color:rgba(64,78,77,0.5);color:#f5f5f5}.button.button-primary{background-color:rgba(91,192,235,0.8);color:#444}.button.button-danger{background-color:rgba(195,66,63,0.8);color:#f5f5f5}.button.button-warning{background-color:rgba(253,231,76,0.8);color:#444}.button.button-success{background-color:rgba(155,197,61,0.8);color:#444}.button.button-default:hover{background-color:#404e4d;color:#f5f5f5}.button.button-primary:hover{background-color:#5bc0eb;color:#444}.button.button-danger:hover{background-color:#c3423f;color:#f5f5f5}.button.button-warning:hover{background-color:#fde74c;color:#444}.button.button-success:hover{background-color:#9bc53d;color:#444}.button.small{font-size:12px;margin:4px 2px;padding:11px}.button.large{font-size:20px;margin:4px 2px;padding:19px}input[type=text],input[type=url],input[type=tel],input[type=number],input[type=color],input[type=email]{height:2.5em;font-family:'Cabin', sans-serif;font-size:1em}label.form-input{font-family:'Cabin', sans-serif;font-size:1.3em;position:relative;float:right}table{position:relative;width:100%}table thead{font-family:'Cabin', sans-serif}table thead th{text-align:left;background-color:rgba(91,192,235,0.8);padding-left:1em}table tbody tr td{padding-top:0.5em;padding-left:0.5em;padding-right:0.5em;padding-bottom:0.25em}table tr:nth-child(odd){background-color:rgba(64,78,77,0.2)}.msg{position:relative;width:100%;padding-top:1.5em;padding-bottom:0.7em;padding-left:1.5em}.msg .msg-header{font-weight:bold;font-family:'Cabin', sans-serif;font-size:1.3em}.msg.msg-default{border-left:0.5em solid black;background-color:rgba(0,0,0,0.1)}.msg.msg-primary{border-left:0.5em solid #5bc0eb;background-color:rgba(91,192,235,0.3)}.msg.msg-danger{border-left:0.5em solid #c3423f;background-color:rgba(195,66,63,0.3)}.msg.msg-warning{border-left:0.5em solid #fde74c;background-color:rgba(253,231,76,0.3)}.msg.msg-success{border-left:0.5em solid #9bc53d;background-color:rgba(155,197,61,0.3)}        
-        
+        @import url("https://fonts.googleapis.com/css?family=Cabin");@import url("https://fonts.googleapis.com/css?family=Lora");body{font-family:"Lora",serif;background-color:#f5f5f5}a{text-decoration:none;color:black;border-bottom:3px #000 dotted}a:hover{color:navy}p{font-size:13pt;text-align:justify}.center{text-align:center}footer{bottom:0;height:5em;background-color:darkred;width:100%;color:white;font-family:"Cabin",sans-serif;padding:12px;float:left}h1,h2,h3,h4,h5,h6{font-family:"Cabin",sans-serif}h1{font-size:3em}h2{font-size:2.5em}h3{font-size:2em}h4{font-size:1.5em}.bighead h1{font-size:8em;color:darkred}*{box-sizing:border-box}[class*="col-"]{float:left;padding:15px}.row::after{content:"";clear:both;display:table}.col-1{width:8.33%}.col-2{width:16.66%}.col-3{width:25%}.col-4{width:33.33%}.col-5{width:41.66%}.col-6{width:50%}.col-7{width:58.33%}.col-8{width:66.66%}.col-9{width:75%}.col-10{width:83.33%}.col-11{width:91.66%}.col-12{width:100%}.container{width:80%;margin:0 auto}.container-full{width:100%;margin:0 auto}.box{position:relative;margin-bottom:15px}.box.box-default{background-color:#e9ebf8}.box.box-dark{background-color:#444;color:#f5f5f5}.box-primary{background-color:rgba(91,192,235,0.8)}.box-danger{background-color:rgba(195,66,63,0.8)}.box-warning{background-color:rgba(253,231,76,0.8)}.box-success{background-color:rgba(155,197,61,0.8)}.button{border:none;border-radius:0.3em;font-weight:bold;text-align:center;text-decoration:none;display:inline-block;cursor:pointer;font-size:16px;margin:4px 2px;padding:15px}.button.button-default{background-color:#e9ebf8;color:#444}.button.button-dark{background-color:#444;color:#f5f5f5}.button.button-primary{background-color:rgba(91,192,235,0.8);color:#444}.button.button-danger{background-color:rgba(195,66,63,0.8);color:#f5f5f5}.button.button-warning{background-color:rgba(253,231,76,0.8);color:#444}.button.button-success{background-color:rgba(155,197,61,0.8);color:#444}.button.button-default:hover{background-color:#b4b8c5;color:#444}.button.button-dark:hover{background-color:#404e4d;color:#f5f5f5}.button.button-primary:hover{background-color:#5bc0eb;color:#444}.button.button-danger:hover{background-color:#c3423f;color:#f5f5f5}.button.button-warning:hover{background-color:#fde74c;color:#444}.button.button-success:hover{background-color:#9bc53d;color:#444}.button.small{font-size:12px;margin:4px 2px;padding:11px}.button.large{font-size:20px;margin:4px 2px;padding:19px}input[type=text],input[type=url],input[type=tel],input[type=number],input[type=color],input[type=email]{height:2.5em;font-family:'Cabin', sans-serif;font-size:1em}label.form-input{font-family:'Cabin', sans-serif;font-size:1.3em;position:relative;float:right}table{position:relative;width:100%}table thead{font-family:'Cabin', sans-serif}table thead th{text-align:left;background-color:rgba(91,192,235,0.8);padding-left:1em}table tbody tr td{padding-top:0.5em;padding-left:0.5em;padding-right:0.5em;padding-bottom:0.25em}table tr:nth-child(odd){background-color:rgba(64,78,77,0.2)}.msg{position:relative;width:100%;padding-top:1.5em;padding-bottom:0.7em;padding-left:1.5em}.msg .msg-header{font-weight:bold;font-family:'Cabin', sans-serif;font-size:1.3em}.msg.msg-default{border-left:0.5em solid black;background-color:rgba(180,184,197,0.3)}.msg.msg-primary{border-left:0.5em solid #5bc0eb;background-color:rgba(91,192,235,0.3)}.msg.msg-danger{border-left:0.5em solid #c3423f;background-color:rgba(195,66,63,0.3)}.msg.msg-warning{border-left:0.5em solid #fde74c;background-color:rgba(253,231,76,0.3)}.msg.msg-success{border-left:0.5em solid #9bc53d;background-color:rgba(155,197,61,0.3)}nav.navbar{font-family:'Cabin', sans-serif}nav.navbar span.brand{float:left;padding-left:0.5em;padding-right:0.5em;font-size:2em}nav.navbar ul{list-style-type:none;margin:0;padding:0;overflow:hidden}nav.navbar ul li{float:left}nav.navbar ul li a{display:block;text-align:center;padding:14px 16px;text-decoration:none;border-bottom:none !important}nav.navbar-default span.brand{color:#444}nav.navbar-default ul{background-color:#e9ebf8}nav.navbar-default ul li a{color:#444}nav.navbar-default ul li a:hover{background-color:#b4b8c5;color:#444 !important}nav.navbar-dark span.brand{color:#f5f5f5}nav.navbar-dark ul{background-color:#404e4d}nav.navbar-dark ul li a{color:#f5f5f5}nav.navbar-dark ul li a:hover{background-color:#444;color:#f5f5f5 !important}nav.navbar-primary span.brand{color:#f5f5f5}nav.navbar-primary ul{background-color:rgba(91,192,235,0.8)}nav.navbar-primary ul li a{color:#f5f5f5}nav.navbar-primary ul li a:hover{background-color:#5bc0eb;color:#f5f5f5 !important}nav.navbar-danger span.brand{color:#f5f5f5}nav.navbar-danger ul{background-color:rgba(195,66,63,0.8)}nav.navbar-danger ul li a{color:#f5f5f5}nav.navbar-danger ul li a:hover{background-color:#c3423f;color:#f5f5f5 !important}nav.navbar-warning span.brand{color:#444}nav.navbar-warning ul{background-color:rgba(253,231,76,0.8)}nav.navbar-warning ul li a{color:#444}nav.navbar-warning ul li a:hover{background-color:#fde74c;color:#444 !important}nav.navbar-success span.brand{color:#f5f5f5}nav.navbar-success ul{background-color:rgba(155,197,61,0.8)}nav.navbar-success ul li a{color:#f5f5f5}nav.navbar-success ul li a:hover{background-color:#9bc53d;color:#f5f5f5 !important}        
         .bordered { border: 1px solid black; }
         .simple { border-bottom: none !important;  font-size: 13pt; }
 
@@ -27,279 +26,360 @@
 </head>
 
 <body>
-        <div class="bighead">
-            <h1 class="center">Cake CSS</h1>
-        </div>
-        <h2 class="center">Minimalist.<br>Responsive.<br>Tiny CSS library.</h2>
+    <div class="bighead">
+        <h1 class="center">Cake CSS</h1>
+    </div>
+    <h2 class="center">Minimalist.<br>Responsive.<br>Tiny CSS library.</h2>
 
-        <h3 class="center">Written by <a href="http://juanjosalvador.me/">Juanjo Salvador</a></h4>
+    <h3 class="center">Written by <a href="http://juanjosalvador.me/">Juanjo Salvador</a></h4>
 
 
-        <div class="container">
-            <div class="row">
-                <h3>Get Cake CSS!</h3>
-                <div class="col-12">
-                    <h4>Using Yarn</h4>
-                    <pre><code class="language-bash">$ yarn add cake-css</code></pre>
-                    <h4>Using NPM</h4>
-                    <pre><code class="language-bash">$ npm install cake-css</code></pre>
-                </div>
-                <p>And import the minified CSS into your site.</p>
-                <div class="col-12">
-                    <pre><code class="language-html">&lt;link rel="stylesheet" type="text/css" href="path/to/cake/cake.min.css"&gt;</code></pre>
-                </div>
+    <div class="container">
+        <div class="row">
+            <h3>Get Cake CSS!</h3>
+            <div class="col-12">
+                <h4>Using Yarn</h4>
+                <pre><code class="language-bash">$ yarn add cake-css</code></pre>
+                <h4>Using NPM</h4>
+                <pre><code class="language-bash">$ npm install cake-css</code></pre>
             </div>
-
-            <div class="row">
-                <h3>Headers</h3>
-                <h1>Header 1</h1>
-                <h2>Header 2</h2>
-                <h3>Header 3</h3>
-                <h4>Header 4</h4>
-                <h5>Header 5</h5>
-                <h6>Header 6</h6>
-            </div>            
-
-            <div class="row">
-                <h3>Grid system</h3>
-                <div class="col-1 bordered">col-1</div>
-                <div class="col-11 bordered">col-11</div>
-                <div class="col-2 bordered">col-2</div>
-                <div class="col-10 bordered">col-10</div>
-                <div class="col-3 bordered">col-3</div>
-                <div class="col-9 bordered">col-9</div>
-                <div class="col-4 bordered">col-4</div>
-                <div class="col-8 bordered">col-8</div>
-                <div class="col-5 bordered">col-5</div>
-                <div class="col-7 bordered">col-7</div>
-                <div class="col-6 bordered">col-6</div>
-                <div class="col-6 bordered">col-6</div>
-                <div class="col-12 bordered">col-12</div>
-            </div>
-
-            <div class="row">
-                <h3>Forms</h3>
-                <form>
-                    <div class="col-1">
-                        <label class="form-input">
-                            Email
-                        </label>
-                    </div>
-                    <div class="col-3">
-                        <input type="text" />
-                        <button type="submit" class="button button-default small">Enviar</button>
-                    </div>
-                </form>                    
-            </div>
-
-            <div class="row">
-                <h3>Tables</h3>
-                <table class="table">
-                    <thead>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Date</th>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Juanjo Salvador</td>
-                            <td>31/08/2017</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Paco Martinez</td>
-                            <td>13/06/2013</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Álvaro Bueno</td>
-                            <td>05/02/2002</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="row">
-                <h3>Boxes example</h3>
-                <div class="col-12 box box-default">
-                    <h4>Box default</h4>
-                    <p>
-                        Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
-                        natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
-                    </p>
-
-                    <p>
-                        Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
-                    </p>
-                    <p>
-                        Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
-                    </p>
-                </div>
-
-                <div class="col-3 box box-primary">
-                    <h4>Box primary</h4>
-                    <p>
-                        Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
-                        natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
-                    </p>
-
-                    <p>
-                        Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
-                    </p>
-                    <p>
-                        Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
-                    </p>
-                </div>
-
-                <div class="col-3 box box-danger">
-                    <h4>Box danger</h4>
-                    <p>
-                        Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
-                        natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
-                    </p>
-
-                    <p>
-                        Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
-                    </p>
-                    <p>
-                        Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
-                    </p>
-                </div>
-
-                <div class="col-3 box box-warning">
-                        <h4>Box warning</h4>
-                        <p>
-                            Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
-                            natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
-                        </p>
-            
-                        <p>
-                            Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
-                        </p>
-                        <p>
-                            Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
-                        </p>
-                </div>
-
-                <div class="col-3 box box-success">
-                        <h4>Box success</h4>
-                        <p>
-                            Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
-                            natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
-                        </p>
-            
-                        <p>
-                            Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
-                        </p>
-                        <p>
-                            Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
-                        </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3>Buttons</h3>
-                <div class="row">
-                    <h4>Small buttons</h4>
-                    <div class="col-2">
-                        <button class="button button-default small">Default</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-primary small">Primary</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-danger small">Danger</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-warning small">Warning</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-success small">Success</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <h4>Normal buttons</h4>
-                    <div class="col-2">
-                        <button class="button button-default">Default</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-primary">Primary</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-danger">Danger</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-warning">Warning</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-success">Success</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <h4>Large buttons</h4>
-                    <div class="col-2">
-                        <button class="button button-default large">Default</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-primary large">Primary</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-danger large">Danger</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-warning large">Warning</button>
-                    </div>
-                    <div class="col-2">
-                        <button class="button button-success large">Success</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3>Messages</h3>
-                <div class="col-12">
-                    <div class="msg msg-default">
-                        <div class="msg-header">
-                            Title of the message!
-                        </div>
-                        <p>This is a testing message. Default color.
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="msg msg-primary">
-                        <div class="msg-header">
-                            Title of the message!
-                        </div>
-                        <p>This is a testing message. Primary color.
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="msg msg-danger">
-                        <div class="msg-header">
-                            Title of the message!
-                        </div>
-                        <p>This is a testing message. Danger color.
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="msg msg-warning">
-                        <div class="msg-header">
-                            Title of the message!
-                        </div>
-                        <p>This is a testing message. Warning color.
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="msg msg-success">
-                        <div class="msg-header">
-                            Title of the message!
-                        </div>
-                        <p>This is a testing message. Success color.
-                    </div>
-                </div>
+            <p>And import the minified CSS into your site.</p>
+            <div class="col-12">
+                <pre><code class="language-html">&lt;link rel="stylesheet" type="text/css" href="path/to/cake/cake.min.css"&gt;</code></pre>
             </div>
         </div>
-    </body>
+
+        <div class="row">
+            <h3>Headers</h3>
+            <h1>Header 1</h1>
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
+            <h6>Header 6</h6>
+        </div>            
+
+        <div class="row">
+            <h3>Grid system</h3>
+            <div class="col-1 bordered">col-1</div>
+            <div class="col-11 bordered">col-11</div>
+            <div class="col-2 bordered">col-2</div>
+            <div class="col-10 bordered">col-10</div>
+            <div class="col-3 bordered">col-3</div>
+            <div class="col-9 bordered">col-9</div>
+            <div class="col-4 bordered">col-4</div>
+            <div class="col-8 bordered">col-8</div>
+            <div class="col-5 bordered">col-5</div>
+            <div class="col-7 bordered">col-7</div>
+            <div class="col-6 bordered">col-6</div>
+            <div class="col-6 bordered">col-6</div>
+            <div class="col-12 bordered">col-12</div>
+        </div>
+
+        <div class="row">
+            <h3>Navigation bar</h3>
+            <nav class="navbar navbar-default">
+                <ul>
+                    <li><span class="brand">Default</span></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </nav>
+            <br>                
+            <nav class="navbar navbar-dark">
+                <ul>
+                    <li><span class="brand">Dark</span></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </nav>
+            <br>                
+            <nav class="navbar navbar-primary">
+                <ul>
+                    <li><span class="brand">Primary</span></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </nav>
+            <br>                
+            <nav class="navbar navbar-danger">
+                <ul>
+                    <li><span class="brand">Danger</span></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </nav>
+            <br>                
+            <nav class="navbar navbar-warning">
+                <ul>
+                    <li><span class="brand">Warning</span></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </nav>
+            <br>
+            <nav class="navbar navbar-success">
+                <ul>
+                    <li><span class="brand">Success</span></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <h3>Forms</h3>
+            <form>
+                <div class="col-1">
+                    <label class="form-input">
+                        Email
+                    </label>
+                </div>
+                <div class="col-3">
+                    <input type="text" />
+                    <button type="submit" class="button button-default small">Enviar</button>
+                </div>
+            </form>                    
+        </div>
+
+        <div class="row">
+            <h3>Tables</h3>
+            <table class="table">
+                <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Juanjo Salvador</td>
+                        <td>31/08/2017</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Paco Martinez</td>
+                        <td>13/06/2013</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Álvaro Bueno</td>
+                        <td>05/02/2002</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row">
+            <h3>Boxes example</h3>
+            <div class="col-4 box box-default">
+                <h4>Box default</h4>
+                <p>
+                    Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
+                    natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
+                </p>
+
+                <p>
+                    Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
+                </p>
+                <p>
+                    Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
+                </p>
+            </div>
+
+            <div class="col-4 box box-dark">
+                <h4>Box dark</h4>
+                <p>
+                    Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
+                    natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
+                </p>
+
+                <p>
+                    Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
+                </p>
+                <p>
+                    Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
+                </p>
+            </div>
+
+            <div class="col-4 box box-primary">
+                <h4>Box primary</h4>
+                <p>
+                    Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
+                    natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
+                </p>
+
+                <p>
+                    Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
+                </p>
+                <p>
+                    Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
+                </p>
+            </div>
+
+            <div class="col-4 box box-danger">
+                <h4>Box danger</h4>
+                <p>
+                    Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
+                    natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
+                </p>
+
+                <p>
+                    Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
+                </p>
+                <p>
+                    Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
+                </p>
+            </div>
+
+            <div class="col-4 box box-warning">
+                    <h4>Box warning</h4>
+                    <p>
+                        Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
+                        natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
+                    </p>
+        
+                    <p>
+                        Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
+                    </p>
+                    <p>
+                        Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
+                    </p>
+            </div>
+
+            <div class="col-4 box box-success">
+                    <h4>Box success</h4>
+                    <p>
+                        Placeat modi est qui nostrum dolor autem quas et. Magni nihil ut dolores consequuntur et quasi quisquam. Voluptatibus voluptas neque tempore ea dolorum
+                        natus quam et. Ea labore eum qui. Id cumque aut nihil quos neque.
+                    </p>
+        
+                    <p>
+                        Alias dicta sit est et. Est voluptatem ducimus aliquid esse et sapiente. Quod molestiae totam aut reprehenderit. Magni id est voluptatem iste ut eligendi.
+                    </p>
+                    <p>
+                        Delectus tempora quis qui ipsum fugit odio. Dolorum corporis voluptatem voluptas commodi quia quidem. Eum ut in eius in.
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3>Buttons</h3>
+            <div class="row">
+                <h4>Small buttons</h4>
+                <div class="col-2">
+                    <button class="button button-default small">Default</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-dark small">Dark</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-primary small">Primary</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-danger small">Danger</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-warning small">Warning</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-success small">Success</button>
+                </div>
+            </div>
+            <div class="row">
+                <h4>Normal buttons</h4>
+                <div class="col-2">
+                    <button class="button button-default">Default</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-dark">Dark</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-primary">Primary</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-danger">Danger</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-warning">Warning</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-success">Success</button>
+                </div>
+            </div>
+            <div class="row">
+                <h4>Large buttons</h4>
+                <div class="col-2">
+                    <button class="button button-default large">Default</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-dark large">Dark</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-primary large">Primary</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-danger large">Danger</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-warning large">Warning</button>
+                </div>
+                <div class="col-2">
+                    <button class="button button-success large">Success</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3>Messages</h3>
+            <div class="col-12">
+                <div class="msg msg-default">
+                    <div class="msg-header">
+                        Title of the message!
+                    </div>
+                    <p>This is a testing message. Default color.
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="msg msg-primary">
+                    <div class="msg-header">
+                        Title of the message!
+                    </div>
+                    <p>This is a testing message. Primary color.
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="msg msg-danger">
+                    <div class="msg-header">
+                        Title of the message!
+                    </div>
+                    <p>This is a testing message. Danger color.
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="msg msg-warning">
+                    <div class="msg-header">
+                        Title of the message!
+                    </div>
+                    <p>This is a testing message. Warning color.
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="msg msg-success">
+                    <div class="msg-header">
+                        Title of the message!
+                    </div>
+                    <p>This is a testing message. Success color.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
