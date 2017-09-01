@@ -35,11 +35,11 @@ You will need the following tools:
 
     npm install
 
-2. Modify or extend whatever you need.
+2. Add your own ingredients and customize Cake CSS as you want. See [Wiki](https://github.com/JuanjoSalvador/cakecss/wiki) for more info.
 
-3. Build it.
+3. Build it! But it's a cake, so... Cook it!
 
-    $ npm run build
+    $ npm run cook
 
 
 
