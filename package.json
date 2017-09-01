@@ -8,19 +8,13 @@
     "minimalistic",
     "responsive"
   ],
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
-  },
   "scripts": {
-    "cook": "gulp sass"
+    "cook": "node-sass src/cake.scss build/dist/cake.min.css --output-style compressed"
   },
   "repository": "https://github.com/JuanjoSalvador/cakecss.git",
   "author": "Juanjo Salvador <juanjosalvador@netc.eu>",
   "license": "MIT",
   "dependencies": {
-    "prismjs": "^1.6.0"
+    "node-sass": "^4.5.3"
   }
 }
