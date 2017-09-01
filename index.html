@@ -16,6 +16,25 @@
             border-left:1px solid #000;
             padding-left: 5px;
         }
+
+        #nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+        }
+
+        #nav ul li.nav-button {
+            float: right;
+        }
+
+        #nav ul li.slogan {
+            position: absolute;
+            bottom: 0.8em;
+            left: 10em;
+            color: white;
+        }
     </style>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
@@ -26,6 +45,22 @@
 </head>
 
 <body>
+    <nav id="nav" class="navbar navbar-danger">
+        <ul>
+            <li>
+                <span class="brand">
+                    Cake CSS
+                </span>
+            </li>
+            <li class="slogan">
+                Minimalist and Responsive, tiny CSS library.
+            </li>
+            <li class="nav-button"><a href="http://twitter.com/linuxneitor" target="blank">Twitter</a></li>
+            <li class="nav-button"><a href="http://github.com/JuanjoSalvador/cakecss" target="blank">Github</a></li>
+            <li class="nav-button"><a href="mailto:hola@juanjosalvador.me" target="blank">Email</a></li>
+        </ul>
+    </nav>
+
     <div class="bighead">
         <h1 class="center">Cake CSS</h1>
     </div>
