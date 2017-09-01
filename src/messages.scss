@@ -14,25 +14,25 @@
 
 .msg.msg-default {
     border-left: 0.5em solid black;
-    background-color: rgba(0,0,0,0.1);
+    background-color: $msg_default;
 }
 
 .msg.msg-primary {
     border-left: 0.5em solid rgba(91, 192, 235, 1);
-    background-color: rgba(91, 192, 235, 0.3);
+    background-color: $msg_primary;
 }
 
 .msg.msg-danger {
     border-left: 0.5em solid rgb(195, 66, 63);
-    background-color: rgba(195, 66, 63, 0.3);
+    background-color: $msg_danger;
 }
 
 .msg.msg-warning {
     border-left: 0.5em solid rgb(253, 231, 76);
-    background-color: rgba(253, 231, 76, 0.3)
+    background-color: $msg_warning;
 }
 
 .msg.msg-success {
     border-left: 0.5em solid rgb(155, 197, 61);
-    background-color: rgba(155, 197, 61, 0.3);
+    background-color: $msg_success;
 }

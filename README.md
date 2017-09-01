@@ -35,11 +35,17 @@ You will need the following tools:
 
     npm install
 
-2. Modify or extend whatever you need.
+2. Add your own ingredients and customize Cake CSS as you want. See [Wiki](https://github.com/JuanjoSalvador/cakecss/wiki) for more info.
 
-3. Build it.
+3. Build it! But it's a cake, so... Cook it!
 
-    $ npm run build
+    $ npm run cook
 
+### Acknowledgements
 
+Cake CSS is srrongly influenced by:
 
+* [Twitter Bootstrap](http://getboostrap.com)
+* [Min CSS](http://mincss.com)
+
+Also this is possible thanks to  [Coolors.co](https://coolors.co/) and their palette generator.

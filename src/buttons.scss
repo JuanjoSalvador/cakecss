@@ -15,17 +15,19 @@
 
 /* Colors */
 
-.button.button-default { background-color: $default; color: $white; }
-.button.button-primary { background-color: $primary; color: $dark; }
+.button.button-default { background-color: $default; color: $darker; }
+.button.button-dark    { background-color: $darker; color: $white; }
+.button.button-primary { background-color: $primary; color: $darker; }
 .button.button-danger  { background-color: $danger;  color: $white; }
-.button.button-warning { background-color: $warning; color: $dark;}
-.button.button-success { background-color: $success; color: $dark; }
+.button.button-warning { background-color: $warning; color: $darker;}
+.button.button-success { background-color: $success; color: $darker; }
 
-.button.button-default:hover { background-color: $h_default; color: $white; }
-.button.button-primary:hover { background-color: $h_primary; color: $dark; }
+.button.button-default:hover { background-color: $h_default; color: $darker; }
+.button.button-dark:hover    { background-color: $h_dark; color: $white; }
+.button.button-primary:hover { background-color: $h_primary; color: $darker; }
 .button.button-danger:hover  { background-color: $h_danger;  color: $white; }
-.button.button-warning:hover { background-color: $h_warning; color: $dark;}
-.button.button-success:hover { background-color: $h_success; color: $dark; }
+.button.button-warning:hover { background-color: $h_warning; color: $darker;}
+.button.button-success:hover { background-color: $h_success; color: $darker; }
 
 /* Sizes */
 
