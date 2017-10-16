@@ -15,6 +15,7 @@
   "author": "Juanjo Salvador <juanjosalvador@netc.eu>",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "prismjs": "^1.8.1"
   }
 }
