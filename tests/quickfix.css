@@ -1,3 +1,61 @@
 .bordered {
     border: 1px solid black;
 }
+
+.hero h1 {
+    font-size: 8em;
+    color: darkred;
+}
+
+[class*="col-"] {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.msg {
+    position: relative;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 0.7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+nav.navbar ul li.burger {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+    nav.navbar ul li .nav-button {
+        display: none;
+    }
+    nav.navbar ul li.burger {
+        display: block;
+        float: right;
+    }
+}
