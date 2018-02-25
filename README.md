@@ -22,25 +22,6 @@ And then simply import the stylesheet on your `index.html` file.
 
     <link rel="stylesheet" type="text/css" href="/path/to/cake/cake.min.css">
 
-### Hackable
-
-You can modify or extend whatever you want of Cake CSS, it's MIT licensed! Source code can be found on `src` folder.
-
-You will need the following tools:
-
-* Sass (Ruby)
-* Gulp
-
-1. Install the dependencies using NPM
-
-    npm install
-
-2. Add your own ingredients and customize Cake CSS as you want. See [Wiki](https://github.com/JuanjoSalvador/cakecss/wiki) for more info.
-
-3. Build it! But it's a cake, so... Cook it!
-
-    $ npm run cook
-
 ### Acknowledgements
 
 Cake CSS is srrongly influenced by:
