@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+body {
+    font-family: "Lora", serif;
+    background-color: #f5f5f5
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px #000 dotted
+}
+
+a:hover {
+    color: navy
+}
+
+p {
+    font-size: 13pt;
+    text-align: justify
+}
+
+.center {
+    text-align: center
+}
+
+footer {
+    bottom: 0;
+    height: 5em;
+    background-color: darkred;
+    width: 100%;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    padding: 12px;
+    float: left
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cabin", sans-serif
+}
+
+h1 {
+    font-size: 3em
+}
+
+h2 {
+    font-size: 2.5em
+}
+
+h3 {
+    font-size: 2em
+}
+
+h4 {
+    font-size: 1.5em
+}
+
+.bighead h1 {
+    font-size: 8em;
+    color: darkred
+}
+
+* {
+    box-sizing: border-box
+}
+
+[class*="col-"] {
+    float: left;
+    min-height: 1px;
+    width: 8.33%;
+    padding: 12px;
+    margin-bottom: 1em
+}
+
+.row::before,
+.row::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.col-1 {
+    width: 6.7675%;
+    margin-right: 1.5625%
+}
+
+.col-2 {
+    width: 15.0975%;
+    margin-right: 1.5625%
+}
+
+.col-3 {
+    width: 23.427500000000002%;
+    margin-right: 1.5625%
+}
+
+.col-4 {
+    width: 31.7575%;
+    margin-right: 1.5625%
+}
+
+.col-5 {
+    width: 40.0875%;
+    margin-right: 1.5625%
+}
+
+.col-6 {
+    width: 48.417500000000004%;
+    margin-right: 1.5625%
+}
+
+.col-7 {
+    width: 56.7475%;
+    margin-right: 1.5625%
+}
+
+.col-8 {
+    width: 65.0775%;
+    margin-right: 1.5625%
+}
+
+.col-9 {
+    width: 73.4075%;
+    margin-right: 1.5625%
+}
+
+.col-10 {
+    width: 81.7375%;
+    margin-right: 1.5625%
+}
+
+.col-11 {
+    width: 90.0675%;
+    margin-right: 1.5625%
+}
+
+.col-12 {
+    width: 98.39750000000001%;
+    margin-right: 1.5625%
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+.container-full {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+.container * {
+    box-sizing: border-box
+}
+
+.box {
+    position: relative;
+    margin-bottom: 15px
+}
+
+.box.box-default {
+    background-color: #e9ebf8
+}
+
+.box.box-dark {
+    background-color: #444;
+    color: #f5f5f5
+}
+
+.box-primary {
+    background-color: rgba(91, 192, 235, 0.8)
+}
+
+.box-danger {
+    background-color: rgba(195, 66, 63, 0.8)
+}
+
+.box-warning {
+    background-color: rgba(253, 231, 76, 0.8)
+}
+
+.box-success {
+    background-color: rgba(155, 197, 61, 0.8)
+}
+
+.button {
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px
+}
+
+.button.button-default {
+    background-color: #e9ebf8;
+    color: #444
+}
+
+.button.button-dark {
+    background-color: #444;
+    color: #f5f5f5
+}
+
+.button.button-primary {
+    background-color: rgba(91, 192, 235, 0.8);
+    color: #444
+}
+
+.button.button-danger {
+    background-color: rgba(195, 66, 63, 0.8);
+    color: #f5f5f5
+}
+
+.button.button-warning {
+    background-color: rgba(253, 231, 76, 0.8);
+    color: #444
+}
+
+.button.button-success {
+    background-color: rgba(155, 197, 61, 0.8);
+    color: #444
+}
+
+.button.button-default:hover {
+    background-color: #b4b8c5;
+    color: #444
+}
+
+.button.button-dark:hover {
+    background-color: #404e4d;
+    color: #f5f5f5
+}
+
+.button.button-primary:hover {
+    background-color: #5bc0eb;
+    color: #444
+}
+
+.button.button-danger:hover {
+    background-color: #c3423f;
+    color: #f5f5f5
+}
+
+.button.button-warning:hover {
+    background-color: #fde74c;
+    color: #444
+}
+
+.button.button-success:hover {
+    background-color: #9bc53d;
+    color: #444
+}
+
+.button.small {
+    font-size: 12px;
+    margin: 4px 2px;
+    padding: 11px
+}
+
+.button.large {
+    font-size: 20px;
+    margin: 4px 2px;
+    padding: 19px
+}
+
+input[type=text],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=color],
+input[type=email] {
+    height: 2.5em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1em;
+    width: 100%
+}
+
+label.form-input {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3em;
+    position: relative;
+    float: right;
+    vertical-align: center
+}
+
+table {
+    position: relative;
+    width: 100%
+}
+
+table thead {
+    font-family: 'Cabin', sans-serif
+}
+
+table thead th {
+    text-align: left;
+    background-color: rgba(91, 192, 235, 0.8);
+    padding-left: 1em
+}
+
+table tbody tr td {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(64, 78, 77, 0.2)
+}
+
+.msg {
+    position: relative;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 0.7em;
+    padding-left: 1.5em
+}
+
+.msg .msg-header {
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3em
+}
+
+.msg.msg-default {
+    border-left: 0.5em solid black;
+    background-color: rgba(180, 184, 197, 0.3)
+}
+
+.msg.msg-primary {
+    border-left: 0.5em solid #5bc0eb;
+    background-color: rgba(91, 192, 235, 0.3)
+}
+
+.msg.msg-danger {
+    border-left: 0.5em solid #c3423f;
+    background-color: rgba(195, 66, 63, 0.3)
+}
+
+.msg.msg-warning {
+    border-left: 0.5em solid #fde74c;
+    background-color: rgba(253, 231, 76, 0.3)
+}
+
+.msg.msg-success {
+    border-left: 0.5em solid #9bc53d;
+    background-color: rgba(155, 197, 61, 0.3)
+}
+
+nav.navbar {
+    font-family: 'Cabin', sans-serif
+}
+
+nav.navbar span.brand {
+    float: left;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 2em
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+nav.navbar ul li {
+    float: left
+}
+
+nav.navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: none !important
+}
+
+nav.navbar-default span.brand {
+    color: #444
+}
+
+nav.navbar-default ul {
+    background-color: #e9ebf8
+}
+
+nav.navbar-default ul li a {
+    color: #444
+}
+
+nav.navbar-default ul li a:hover {
+    background-color: #b4b8c5;
+    color: #444 !important
+}
+
+nav.navbar-dark span.brand {
+    color: #f5f5f5
+}
+
+nav.navbar-dark ul {
+    background-color: #404e4d
+}
+
+nav.navbar-dark ul li a {
+    color: #f5f5f5
+}
+
+nav.navbar-dark ul li a:hover {
+    background-color: #444;
+    color: #f5f5f5 !important
+}
+
+nav.navbar-primary span.brand {
+    color: #f5f5f5
+}
+
+nav.navbar-primary ul {
+    background-color: rgba(91, 192, 235, 0.8)
+}
+
+nav.navbar-primary ul li a {
+    color: #f5f5f5
+}
+
+nav.navbar-primary ul li a:hover {
+    background-color: #5bc0eb;
+    color: #f5f5f5 !important
+}
+
+nav.navbar-danger span.brand {
+    color: #f5f5f5
+}
+
+nav.navbar-danger ul {
+    background-color: rgba(195, 66, 63, 0.8)
+}
+
+nav.navbar-danger ul li a {
+    color: #f5f5f5
+}
+
+nav.navbar-danger ul li a:hover {
+    background-color: #c3423f;
+    color: #f5f5f5 !important
+}
+
+nav.navbar-warning span.brand {
+    color: #444
+}
+
+nav.navbar-warning ul {
+    background-color: rgba(253, 231, 76, 0.8)
+}
+
+nav.navbar-warning ul li a {
+    color: #444
+}
+
+nav.navbar-warning ul li a:hover {
+    background-color: #fde74c;
+    color: #444 !important
+}
+
+nav.navbar-success span.brand {
+    color: #f5f5f5
+}
+
+nav.navbar-success ul {
+    background-color: rgba(155, 197, 61, 0.8)
+}
+
+nav.navbar-success ul li a {
+    color: #f5f5f5
+}
+
+nav.navbar-success ul li a:hover {
+    background-color: #9bc53d;
+    color: #f5f5f5 !important
+}
