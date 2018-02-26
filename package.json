@@ -1,7 +1,7 @@
 {
   "name": "cake-css",
   "description": "Minimalistic and responsive tiny CSS library",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "keywords": [
     "css",
     "css library",
@@ -9,12 +9,16 @@
     "responsive"
   ],
   "scripts": {
-    "cook": "node-sass src/cake.scss build/dist/cake.min.css --output-style compressed"
+    "cook": "gulp"
   },
   "repository": "https://github.com/JuanjoSalvador/cakecss.git",
   "author": "Juanjo Salvador <juanjosalvador@netc.eu>",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   }
 }
