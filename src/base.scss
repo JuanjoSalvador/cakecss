@@ -1,18 +1,5 @@
-/* FONTS */
-
-@import url('https://fonts.googleapis.com/css?family=Cabin');
-@import url('https://fonts.googleapis.com/css?family=Lora');
-
-$cabin: 'Cabin', sans-serif;
-$lora: 'Lora', serif;
-
-/* BASE COLORS */
-
-$white: #f5f5f5;
-$darker: #444;
-
 body {
-    font-family: $lora;
+    font-family: $main-font;
     background-color: $white;
 }
 
@@ -41,7 +28,7 @@ a:hover {
 
 /*
  * CLASSES
- */ 
+ */
 
 .center {
     text-align: center;
@@ -53,7 +40,7 @@ footer {
     background-color: darkred;
     width: 100%;
     color: white;
-    font-family: $cabin;
+    font-family: $alternative-font;
     padding: 12px;
     float: left;
 }
@@ -63,7 +50,7 @@ footer {
  */
 
  h1, h2, h3, h4, h5, h6 {
-    font-family: $cabin;
+    font-family: $alternative-font;
 }
 
 h1 {

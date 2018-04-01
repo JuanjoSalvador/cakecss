@@ -8,12 +8,17 @@
   */
 
 /* DO NOT REMOVE THIS. This is the base CSS, needed! */
+@import 'normalize';
+
+/* Vars */
+@import 'fonts';
+@import 'colors';
+@import 'grid';
+
+/* Base */
 @import 'base';
 
 /* Cake CSS Modules. Remove whatever you don't need and rebuild */
-
-@import 'colors';
-@import 'grid';
 @import 'boxes';
 @import 'buttons';
 @import 'forms';

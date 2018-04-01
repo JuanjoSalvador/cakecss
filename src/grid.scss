@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 [class*="col-"] {
     float: left;
     min-height: 1px;
@@ -45,8 +41,4 @@
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
-}
-
-.container *{
-    box-sizing: border-box;
 }

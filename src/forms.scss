@@ -5,13 +5,13 @@ input[type=number],
 input[type=color],
 input[type=email] {
     height: 2.5em;
-    font-family: 'Cabin', sans-serif;
+    font-family: $alternative-font;
     font-size: 1em;
     width: 100%;
 }
 
 label.form-input {
-    font-family: 'Cabin', sans-serif;
+    font-family: $alternative-font;
     font-size: 1.3em;
     position: relative;
     float: right;

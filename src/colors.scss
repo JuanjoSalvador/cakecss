@@ -1,5 +1,8 @@
-/* ALPHA COLORS */
+/* BASE COLORS */
+$white: #f5f5f5;
+$darker: #444;
 
+/* ALPHA COLORS */
 $default: rgba(233, 235, 248, 1);
 $dark: rgba(64, 78, 77, 0.5);
 $primary: rgba(91, 192, 235, 0.8);
@@ -8,7 +11,6 @@ $warning: rgba(253, 231, 76, 0.8);
 $success: rgba(155, 197, 61, 0.8);
 
 /* HOVER COLORS */
-
 $h_default: rgba(180, 184, 197, 1);
 $h_dark: rgba(64, 78, 77, 1);
 $h_primary: rgba(91, 192, 235, 1);
